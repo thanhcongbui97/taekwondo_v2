@@ -1,7 +1,8 @@
 import React from 'react';
 import data from "./work.json";
 import { Container, Row, Col } from 'react-bootstrap';
-import WorkIcon from '@material-ui/icons/Work';
+import ScheduleIcon from '@material-ui/icons/Schedule';
+// import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import {Fade} from 'react-reveal';
 
 const Timeline = () => {
@@ -16,7 +17,7 @@ const Timeline = () => {
                     return (
                       <li className="timeline-item" key={item.id}>
                         <div className="timeline-badge">
-                          <WorkIcon className="glyphicon glyphicon-off" />
+                          <ScheduleIcon className="glyphicon glyphicon-off" />
                         </div>
                         <div className="timeline-panel">
                           <div className="timeline-heading">

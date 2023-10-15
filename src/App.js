@@ -6,7 +6,7 @@ import WorkExperience from './components/workExperience';
 import Quote from './components/quote';
 import Projects from './components/projects';
 import Contact from './components/contact';
-import Game from './components/game';
+// import Game from './components/game';
 import Loading, { loadingListener } from "./components/loader";
 
 const App = () => {
@@ -34,7 +34,7 @@ const App = () => {
       <Quote />
       <Projects />
       <Contact />
-      <Game />
+      {/* <Game /> */}
     </div>
   );
 }

@@ -23,7 +23,7 @@ const Contact = () => {
             </a>
           </section>
           </Fade>
-          <p className="footer">Designed and Built by Roshan Kanwar</p>
+          <p className="footer">Designed and Built by Taekwondo-PTIT Development Team</p>
         </div>
       </div>
     </div>
