@@ -25,7 +25,7 @@ const NavbarComponent = () => {
         >
           <Fade left cascade>
           <Navbar.Brand href="#home" className="brand-name ml-5">
-            Roshan.
+            Taekwondo-PTIT
           </Navbar.Brand>
           </Fade>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -39,13 +39,16 @@ const NavbarComponent = () => {
                 About
               </Nav.Link>
               <Nav.Link className="px-3" href="#work">
-                Experience
+                Schedule
               </Nav.Link>
               <Nav.Link className="px-3" href="#project">
                 Projects
               </Nav.Link>
               <Nav.Link className="px-3" href="#contact">
                 Contact
+              </Nav.Link>
+              <Nav.Link className="px-3" href="#game">
+                Game
               </Nav.Link>
               <Nav.Link
                 className="px-3"

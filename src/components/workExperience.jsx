@@ -11,7 +11,7 @@ const WorkExperience = () => {
       >
         <section className="div-2 work">
           <Fade left>
-          <h1 className="mb-4 heading">Work Experience</h1>
+          <h1 className="mb-4 heading">Training schedule</h1>
           </Fade>
           <Timeline />
         </section>

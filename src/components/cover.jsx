@@ -4,6 +4,9 @@ import {
   faGithub,
   faLinkedin,
   faHackerrank,
+  faFacebook,
+  faYoutube,
+  faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import Fade from "react-reveal/Fade";
 
@@ -14,15 +17,13 @@ const Cover = () => {
         <div className="head-div mx-auto main-div">
           <Fade top cascade>
             <section className="div-1">
-              <h1 className="my-1 head-div-first-text">Hi, my name is</h1>
-              <h1 className="head-div-second-text">Roshan Kanwar.</h1>
+              <h1 className="my-1 head-div-first-text">Welcome to</h1>
+              <h1 className="head-div-second-text">Taekwondo-PTIT</h1>
               <h1 className="head-div-third-text">
-                I turn ideas into reality.
+                Learn what is real Taekwondo.
               </h1>
               <p className="head-div-fourth-text">
-                I'm a software developer and competitive coder based in India,
-                with keen interest and skills in building beautiful and eye
-                catching websites.
+                Taekwondo was born to train soldiers to survive on the battlefield, and it was done without relying on weapons - hence the “unarmed” spiel. It was never meant to be used against unarmed opponents; indeed, the opponent was expected to be armed. And in order to train to kill an armed opponent, you had to have an understanding of the kinds of weapons that would be used. So, like machine guns, hand guns, sticks, and knives.
               </p>
             </section>
           </Fade>
@@ -65,15 +66,15 @@ export default Cover;
 
 const SocialData = [
   {
-    link: "https://github.com/roshan0708",
-    icon: faGithub,
+    link: "https://www.facebook.com/taekwondo.ptit",
+    icon: faFacebook,
   },
   {
-    link: "https://www.linkedin.com/in/roshan0708/",
-    icon: faLinkedin,
+    link: "https://www.youtube.com/c/PTITTaekwondo",
+    icon: faYoutube,
   },
   {
-    link: "https://www.hackerrank.com/roshan_0708",
-    icon: faHackerrank,
+    link: "https://www.instagram.com/taekwondo.ptit",
+    icon: faInstagram,
   },
 ];
