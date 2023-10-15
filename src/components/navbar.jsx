@@ -1,7 +1,7 @@
 import React from 'react';
 import { Nav, Navbar, Button } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade'; 
-import Resume from "../assets/Roshan_Kanwar_Resume.pdf";
+// import Resume from "../assets/Roshan_Kanwar_Resume.pdf";
 
 const NavbarComponent = () => {
     const changeBackground = () => {
@@ -53,11 +53,11 @@ const NavbarComponent = () => {
               <Nav.Link
                 className="px-3"
                 rel="noopener noreferrer"
-                href={Resume}
+                href={"http://quiz.taekwondoptit.com"}
                 target="_blank"
               >
                 <Button variant="outline-success" className="button">
-                  Resume
+                  Quiz
                 </Button>
               </Nav.Link>
               </Fade>
